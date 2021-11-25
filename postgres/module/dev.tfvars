@@ -1,0 +1,11 @@
+name           = "postgres-rds"
+vpc_id         = "vpc-0c4414ec2b3881e48"
+cidr           = "10.20.0.0/16"
+storage_size   = 10
+engine         = "postgres"
+engine_version = "9.6"
+instance_class = "db.t2.micro" 
+db_name        = "mydb"
+username       = "alpha"
+group_name     = "default.postgres9.6"
+snapshot       = true
